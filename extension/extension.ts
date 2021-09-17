@@ -1,7 +1,7 @@
 import * as vscode from "vscode";
 
-const extensionName = "tomblind.scm-buttons-vscode";
-const commandPrefix = "scm-buttons.";
+const extensionName = "idma88.git-buttons-vscode";
+const commandPrefix = "git-buttons.";
 
 interface CommandEntry {
     command: string;
