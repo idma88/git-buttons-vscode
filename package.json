@@ -1,7 +1,7 @@
 {
     "name": "git-buttons-vscode",
     "publisher": "idma88",
-    "version": "0.1.2",
+    "version": "0.2.0",
     "description": "Additional Source Control Buttons for Visual Studio Code",
     "displayName": "Source Control Buttons",
     "icon": "resources/icon.png",
