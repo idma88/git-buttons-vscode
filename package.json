@@ -1,7 +1,7 @@
 {
     "name": "git-buttons-vscode",
     "publisher": "idma88",
-    "version": "0.2.0",
+    "version": "0.2.1",
     "description": "Additional Source Control Buttons for Visual Studio Code",
     "displayName": "Source Control Buttons",
     "icon": "resources/icon.png",
@@ -15,6 +15,7 @@
         "bundle": "npm run clean && npm run build && vsce package",
         "publish": "npm run bundle && vsce publish",
         "clean": "rm -f extension/*.js && rm -f extension/*.js.map && rm -f *.vsix"
+        "clean_win": "del /f extension\\*.js && del /f extension\\*.js.map && del /f *.vsix"
     },
     "author": "idma88@users.noreply.github.com",
     "license": "MIT",
