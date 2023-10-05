@@ -1,5 +1,8 @@
 # Change Log
 
+## Version 1.1.0
+- Add better support for multi workspace projects
+
 ## Version 1.0.0
 - Added buttons for `Git Sync` and `Git Sync (Rebase)` commands
 - Update README

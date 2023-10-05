@@ -2,7 +2,7 @@
 	"name": "git-buttons-vscode",
 	"displayName": "Source Control Buttons",
 	"description": "Additional Source Control Buttons for Visual Studio Code",
-	"version": "1.0.0",
+	"version": "1.1.0",
 	"publisher": "idma88",
 	"author": {
 		"name": "Dmitrii Ivanov"

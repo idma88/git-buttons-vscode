@@ -1,15 +1,16 @@
 # Source Control Buttons for Visual Studio Code
 
-[![License](https://img.shields.io/github/license/idma88/git-buttons-vscode?style=for-the-badge)](https://github.com/idma88/git-buttons-vscode/blob/main/LICENSE)
-[![VS Code Marketplace Version](https://vsmarketplacebadge.apphb.com/version-short/idma88.git-buttons-vscode.svg?style=for-the-badge)](https://marketplace.visualstudio.com/items?itemName=idma88.git-buttons-vscode)
-[![VS Code Marketplace Downloads](https://vsmarketplacebadge.apphb.com/downloads-short/idma88.git-buttons-vscode.svg?style=for-the-badge)](https://marketplace.visualstudio.com/items?itemName=idma88.git-buttons-vscode)
-[![VS Code Marketplace Installs](https://vsmarketplacebadge.apphb.com/installs-short/idma88.git-buttons-vscode.svg?style=for-the-badge)](https://marketplace.visualstudio.com/items?itemName=idma88.git-buttons-vscode)
+[![License](https://img.shields.io/github/license/idma88/git-buttons-vscode?style=for-the-badge)](https://github.com/idma88/git-buttons-vscode/blob/master/LICENSE)
+[![VS Code Marketplace Version](https://img.shields.io/visual-studio-marketplace/v/idma88.git-buttons-vscode?style=for-the-badge)](https://marketplace.visualstudio.com/items?itemName=idma88.git-buttons-vscode)
+[![VS Code Marketplace Downloads](https://img.shields.io/visual-studio-marketplace/d/idma88.git-buttons-vscode?style=for-the-badge)](https://marketplace.visualstudio.com/items?itemName=idma88.git-buttons-vscode)
+[![VS Code Marketplace Installs](https://img.shields.io/visual-studio-marketplace/i/idma88.git-buttons-vscode?style=for-the-badge)](https://marketplace.visualstudio.com/items?itemName=idma88.git-buttons-vscode)
+[![Visual Studio Marketplace Last Updated](https://img.shields.io/visual-studio-marketplace/last-updated/idma88.git-buttons-vscode?style=for-the-badge)](https://marketplace.visualstudio.com/items?itemName=idma88.git-buttons-vscode)
 
 This extension adds additional buttons to the source control panel. See configuration options for full list of available buttons that can be added. Note that only git actions are supported at this time.
 
 ## Preview
 
-![Preview](https://raw.githubusercontent.com/idma88/git-buttons-vscode/master/resources/preview.png)
+![Preview](https://raw.githubusercontent.com/idma88/git-buttons-vscode/master/resources/preview.png)<br/>
 *Note: Views not all available buttons*
 
 ## Extension Settings
@@ -47,6 +48,10 @@ Settings | Description
 `git-buttons.showGitShowOutput` | Show button `Git Show Output`
 
 ## Release Notes
+
+### Version 1.1.0
+
+- Add better support for multi workspace projects
 
 ### Version 1.0.0
 
