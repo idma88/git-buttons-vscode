@@ -19,35 +19,41 @@ This extension contributes the following settings:
 
 Settings | Description
 -|-
-`git-buttons.showGitPull` | Show button `Git Pull`
-`git-buttons.showGitPullRebase` | Show button `Git Pull (Rebase)`
-`git-buttons.showGitPullFrom` | Show button `Git Pull From...`
-`git-buttons.showGitPush` | Show button `Git Push`
-`git-buttons.showGitPushTo` | Show button `Git Push To...`
-`git-buttons.showGitSync` | Show button `Sync`
-`git-buttons.showGitSyncRebase` | Show button `Sync (Rebase)`
-`git-buttons.showGitCheckout` | Show button `Git Checkout`
-`git-buttons.showGitPublish` | Show button `Git Publish Branch...`
-`git-buttons.showGitCommitAll` | Show button `Git Commit All`
-`git-buttons.showGitCommitAllAmend` | Show button `Git Commit All (Amend)`
-`git-buttons.showGitCommitAllSigned` | Show button `Git Commit All (Signed Off)`
-`git-buttons.showGitCommitStaged` | Show button `Git Commit Staged`
-`git-buttons.showGitCommitStagedAmend` | Show button `Git Commit Staged (Amend)`
-`git-buttons.showGitCommitStagedSigned` | Show button `Git Commit Staged (Signed Off)`
-`git-buttons.showGitUndoCommit` | Show button `Git Undo Commit`
-`git-buttons.showGitCleanAll` | Show button `Git Clean All`
-`git-buttons.showGitStageAll` | Show button `Git Stage All`
-`git-buttons.showGitUnstageAll` | Show button `Git Unstage All`
-`git-buttons.showGitStashApplyLatest` | Show button `Git Apply Latest Stash`
-`git-buttons.showGitStashApply` | Show button `Git Apply Stash...`
-`git-buttons.showGitStashDrop` | Show button `Git Drop Stash...`
-`git-buttons.showGitStashPopLatest` | Show button `Git Pop Latest Stash`
-`git-buttons.showGitStashPop` | Show button `Git Pop Stash...`
-`git-buttons.showGitStash` | Show button `Git Stash`
-`git-buttons.showGitStashIncludeUntracked` | Show button `Git Stash (Include Untracked)`
-`git-buttons.showGitShowOutput` | Show button `Git Show Output`
+`git-buttons.commandsLocation` | Specifies where actions appears on the title of SCM Providers
+`git-buttons.showGitPull` | Show button/command `Git Pull`
+`git-buttons.showGitPullRebase` | Show button/command `Git Pull (Rebase)`
+`git-buttons.showGitPullFrom` | Show button/command `Git Pull From...`
+`git-buttons.showGitPush` | Show button/command `Git Push`
+`git-buttons.showGitPushTo` | Show button/command `Git Push To...`
+`git-buttons.showGitSync` | Show button/command `Sync`
+`git-buttons.showGitSyncRebase` | Show button/command `Sync (Rebase)`
+`git-buttons.showGitCheckout` | Show button/command `Git Checkout`
+`git-buttons.showGitPublish` | Show button/command `Git Publish Branch...`
+`git-buttons.showGitCommitAll` | Show button/command `Git Commit All`
+`git-buttons.showGitCommitAllAmend` | Show button/command `Git Commit All (Amend)`
+`git-buttons.showGitCommitAllSigned` | Show button/command `Git Commit All (Signed Off)`
+`git-buttons.showGitCommitStaged` | Show button/command `Git Commit Staged`
+`git-buttons.showGitCommitStagedAmend` | Show button/command `Git Commit Staged (Amend)`
+`git-buttons.showGitCommitStagedSigned` | Show button/command `Git Commit Staged (Signed Off)`
+`git-buttons.showGitUndoCommit` | Show button/command `Git Undo Commit`
+`git-buttons.showGitCleanAll` | Show button/command `Git Clean All`
+`git-buttons.showGitStageAll` | Show button/command `Git Stage All`
+`git-buttons.showGitUnstageAll` | Show button/command `Git Unstage All`
+`git-buttons.showGitStash` | Show button/command `Git Stash`
+`git-buttons.showGitStashIncludeUntracked` | Show button/command `Git Stash (Include Untracked)`
+`git-buttons.showGitStashApply` | Show button/command `Git Apply Stash...`
+`git-buttons.showGitStashApplyLatest` | Show button/command `Git Apply Latest Stash`
+`git-buttons.showGitStashPop` | Show button/command `Git Pop Stash...`
+`git-buttons.showGitStashPopLatest` | Show button/command `Git Pop Latest Stash`
+`git-buttons.showGitStashDrop` | Show button/command `Git Drop Stash...`
+`git-buttons.showGitShowOutput` | Show button/command `Git Show Output`
 
 ## Release Notes
+
+### Version 1.2.2
+
+- Added `git-buttons.commandsLocation` setting
+- Improved translations
 
 ### Version 1.2.1
 
