@@ -49,6 +49,10 @@ Settings | Description
 
 ## Release Notes
 
+### Version 1.2.1
+
+- Fixed button display for VS Code 1.106 and above
+
 ### Version 1.1.0
 
 - Add better support for multi workspace projects
