@@ -1,5 +1,9 @@
 # Change Log
 
+## Version 1.2.3
+
+- Fixed behavior of the `git-buttons.commandsLocation` command
+
 ## Version 1.2.2
 
 - Added `git-buttons.commandsLocation` setting

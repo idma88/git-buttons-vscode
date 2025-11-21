@@ -2,7 +2,7 @@
 	"name": "git-buttons-vscode",
 	"displayName": "Source Control Buttons",
 	"description": "Additional Source Control Buttons for Visual Studio Code",
-	"version": "1.2.2",
+	"version": "1.2.3",
 	"publisher": "idma88",
 	"author": {
 		"name": "Dmitrii Ivanov"
@@ -405,272 +405,272 @@
 		"menus": {
 			"scm/title": [
 				{
-					"when": "scmProvider == git && config.git-buttons.showGitPull && config.git-buttons.commandsLocation == 'More Actions'",
+					"when": "scmProvider == git && config.git-buttons.showGitPull && config.git-buttons.commandsLocation == 'Inline'",
 					"command": "git.pull",
 					"group": "navigation@1"
 				},
 				{
-					"when": "scmProvider == git && config.git-buttons.showGitPullRebase && config.git-buttons.commandsLocation == 'More Actions'",
+					"when": "scmProvider == git && config.git-buttons.showGitPullRebase && config.git-buttons.commandsLocation == 'Inline'",
 					"command": "git.pullRebase",
 					"group": "navigation@2"
 				},
 				{
-					"when": "scmProvider == git && config.git-buttons.showGitPullFrom && config.git-buttons.commandsLocation == 'More Actions'",
+					"when": "scmProvider == git && config.git-buttons.showGitPullFrom && config.git-buttons.commandsLocation == 'Inline'",
 					"command": "git.pullFrom",
 					"group": "navigation@3"
 				},
 				{
-					"when": "scmProvider == git && config.git-buttons.showGitPush && config.git-buttons.commandsLocation == 'More Actions'",
+					"when": "scmProvider == git && config.git-buttons.showGitPush && config.git-buttons.commandsLocation == 'Inline'",
 					"command": "git.push",
 					"group": "navigation@4"
 				},
 				{
-					"when": "scmProvider == git && config.git-buttons.showGitPushTo && config.git-buttons.commandsLocation == 'More Actions'",
+					"when": "scmProvider == git && config.git-buttons.showGitPushTo && config.git-buttons.commandsLocation == 'Inline'",
 					"command": "git.pushTo",
 					"group": "navigation@5"
 				},
 				{
-					"when": "scmProvider == git && config.git-buttons.showGitSync && config.git-buttons.commandsLocation == 'More Actions'",
+					"when": "scmProvider == git && config.git-buttons.showGitSync && config.git-buttons.commandsLocation == 'Inline'",
 					"command": "git.sync",
 					"group": "navigation@6"
 				},
 				{
-					"when": "scmProvider == git && config.git-buttons.showGitSyncRebase && config.git-buttons.commandsLocation == 'More Actions'",
+					"when": "scmProvider == git && config.git-buttons.showGitSyncRebase && config.git-buttons.commandsLocation == 'Inline'",
 					"command": "git.syncRebase",
 					"group": "navigation@7"
 				},
 				{
-					"when": "scmProvider == git && config.git-buttons.showGitCheckout && config.git-buttons.commandsLocation == 'More Actions'",
+					"when": "scmProvider == git && config.git-buttons.showGitCheckout && config.git-buttons.commandsLocation == 'Inline'",
 					"command": "git.checkout",
 					"group": "navigation@8"
 				},
 				{
-					"when": "scmProvider == git && config.git-buttons.showGitPublish && config.git-buttons.commandsLocation == 'More Actions'",
+					"when": "scmProvider == git && config.git-buttons.showGitPublish && config.git-buttons.commandsLocation == 'Inline'",
 					"command": "git.publish",
 					"group": "navigation@9"
 				},
 				{
-					"when": "scmProvider == git && config.git-buttons.showGitCommitAll && config.git-buttons.commandsLocation == 'More Actions'",
+					"when": "scmProvider == git && config.git-buttons.showGitCommitAll && config.git-buttons.commandsLocation == 'Inline'",
 					"command": "git.commitAll",
 					"group": "navigation@10"
 				},
 				{
-					"when": "scmProvider == git && config.git-buttons.showGitCommitAllAmend && config.git-buttons.commandsLocation == 'More Actions'",
+					"when": "scmProvider == git && config.git-buttons.showGitCommitAllAmend && config.git-buttons.commandsLocation == 'Inline'",
 					"command": "git.commitAllAmend",
 					"group": "navigation@11"
 				},
 				{
-					"when": "scmProvider == git && config.git-buttons.showGitCommitAllSigned && config.git-buttons.commandsLocation == 'More Actions'",
+					"when": "scmProvider == git && config.git-buttons.showGitCommitAllSigned && config.git-buttons.commandsLocation == 'Inline'",
 					"command": "git.commitAllSigned",
 					"group": "navigation@12"
 				},
 				{
-					"when": "scmProvider == git && config.git-buttons.showGitCommitStaged && config.git-buttons.commandsLocation == 'More Actions'",
+					"when": "scmProvider == git && config.git-buttons.showGitCommitStaged && config.git-buttons.commandsLocation == 'Inline'",
 					"command": "git.commitStaged",
 					"group": "navigation@13"
 				},
 				{
-					"when": "scmProvider == git && config.git-buttons.showGitCommitStagedAmend && config.git-buttons.commandsLocation == 'More Actions'",
+					"when": "scmProvider == git && config.git-buttons.showGitCommitStagedAmend && config.git-buttons.commandsLocation == 'Inline'",
 					"command": "git.commitStagedAmend",
 					"group": "navigation@14"
 				},
 				{
-					"when": "scmProvider == git && config.git-buttons.showGitCommitStagedSigned && config.git-buttons.commandsLocation == 'More Actions'",
+					"when": "scmProvider == git && config.git-buttons.showGitCommitStagedSigned && config.git-buttons.commandsLocation == 'Inline'",
 					"command": "git.commitStagedSigned",
 					"group": "navigation@15"
 				},
 				{
-					"when": "scmProvider == git && config.git-buttons.showGitUndoCommit && config.git-buttons.commandsLocation == 'More Actions'",
+					"when": "scmProvider == git && config.git-buttons.showGitUndoCommit && config.git-buttons.commandsLocation == 'Inline'",
 					"command": "git.undoCommit",
 					"group": "navigation@16"
 				},
 				{
-					"when": "scmProvider == git && config.git-buttons.showGitCleanAll && config.git-buttons.commandsLocation == 'More Actions'",
+					"when": "scmProvider == git && config.git-buttons.showGitCleanAll && config.git-buttons.commandsLocation == 'Inline'",
 					"command": "git.cleanAll",
 					"group": "navigation@17"
 				},
 				{
-					"when": "scmProvider == git && config.git-buttons.showGitStageAll && config.git-buttons.commandsLocation == 'More Actions'",
+					"when": "scmProvider == git && config.git-buttons.showGitStageAll && config.git-buttons.commandsLocation == 'Inline'",
 					"command": "git.stageAll",
 					"group": "navigation@18"
 				},
 				{
-					"when": "scmProvider == git && config.git-buttons.showGitUnstageAll && config.git-buttons.commandsLocation == 'More Actions'",
+					"when": "scmProvider == git && config.git-buttons.showGitUnstageAll && config.git-buttons.commandsLocation == 'Inline'",
 					"command": "git.unstageAll",
 					"group": "navigation@19"
 				},
 				{
-					"when": "scmProvider == git && config.git-buttons.showGitStash && config.git-buttons.commandsLocation == 'More Actions'",
+					"when": "scmProvider == git && config.git-buttons.showGitStash && config.git-buttons.commandsLocation == 'Inline'",
 					"command": "git.stash",
 					"group": "navigation@20"
 				},
 				{
-					"when": "scmProvider == git && config.git-buttons.showGitStashIncludeUntracked && config.git-buttons.commandsLocation == 'More Actions'",
+					"when": "scmProvider == git && config.git-buttons.showGitStashIncludeUntracked && config.git-buttons.commandsLocation == 'Inline'",
 					"command": "git.stashIncludeUntracked",
 					"group": "navigation@21"
 				},
 				{
-					"when": "scmProvider == git && config.git-buttons.showGitStashApply && config.git-buttons.commandsLocation == 'More Actions'",
+					"when": "scmProvider == git && config.git-buttons.showGitStashApply && config.git-buttons.commandsLocation == 'Inline'",
 					"command": "git.stashApply",
 					"group": "navigation@22"
 				},
 				{
-					"when": "scmProvider == git && config.git-buttons.showGitStashApplyLatest && config.git-buttons.commandsLocation == 'More Actions'",
+					"when": "scmProvider == git && config.git-buttons.showGitStashApplyLatest && config.git-buttons.commandsLocation == 'Inline'",
 					"command": "git.stashApplyLatest",
 					"group": "navigation@23"
 				},
 				{
-					"when": "scmProvider == git && config.git-buttons.showGitStashPop && config.git-buttons.commandsLocation == 'More Actions'",
+					"when": "scmProvider == git && config.git-buttons.showGitStashPop && config.git-buttons.commandsLocation == 'Inline'",
 					"command": "git.stashPop",
 					"group": "navigation@24"
 				},
 				{
-					"when": "scmProvider == git && config.git-buttons.showGitStashPopLatest && config.git-buttons.commandsLocation == 'More Actions'",
+					"when": "scmProvider == git && config.git-buttons.showGitStashPopLatest && config.git-buttons.commandsLocation == 'Inline'",
 					"command": "git.stashPopLatest",
 					"group": "navigation@25"
 				},
 				{
-					"when": "scmProvider == git && config.git-buttons.showGitStashDrop && config.git-buttons.commandsLocation == 'More Actions'",
+					"when": "scmProvider == git && config.git-buttons.showGitStashDrop && config.git-buttons.commandsLocation == 'Inline'",
 					"command": "git.stashDrop",
 					"group": "navigation@26"
 				},
 				{
-					"when": "scmProvider == git && config.git-buttons.showGitShowOutput && config.git-buttons.commandsLocation == 'More Actions'",
+					"when": "scmProvider == git && config.git-buttons.showGitShowOutput && config.git-buttons.commandsLocation == 'Inline'",
 					"command": "git.showOutput",
 					"group": "navigation@27"
 				},
 				{
-					"when": "scmProvider == git && config.git-buttons.showGitPull && config.git-buttons.commandsLocation == 'Inline'",
+					"when": "scmProvider == git && config.git-buttons.showGitPull && config.git-buttons.commandsLocation == 'More Actions'",
 					"command": "git.pull",
 					"group": "inline@1"
 				},
 				{
-					"when": "scmProvider == git && config.git-buttons.showGitPullRebase && config.git-buttons.commandsLocation == 'Inline'",
+					"when": "scmProvider == git && config.git-buttons.showGitPullRebase && config.git-buttons.commandsLocation == 'More Actions'",
 					"command": "git.pullRebase",
 					"group": "inline@2"
 				},
 				{
-					"when": "scmProvider == git && config.git-buttons.showGitPullFrom && config.git-buttons.commandsLocation == 'Inline'",
+					"when": "scmProvider == git && config.git-buttons.showGitPullFrom && config.git-buttons.commandsLocation == 'More Actions'",
 					"command": "git.pullFrom",
 					"group": "inline@3"
 				},
 				{
-					"when": "scmProvider == git && config.git-buttons.showGitPush && config.git-buttons.commandsLocation == 'Inline'",
+					"when": "scmProvider == git && config.git-buttons.showGitPush && config.git-buttons.commandsLocation == 'More Actions'",
 					"command": "git.push",
 					"group": "inline@4"
 				},
 				{
-					"when": "scmProvider == git && config.git-buttons.showGitPushTo && config.git-buttons.commandsLocation == 'Inline'",
+					"when": "scmProvider == git && config.git-buttons.showGitPushTo && config.git-buttons.commandsLocation == 'More Actions'",
 					"command": "git.pushTo",
 					"group": "inline@5"
 				},
 				{
-					"when": "scmProvider == git && config.git-buttons.showGitSync && config.git-buttons.commandsLocation == 'Inline'",
+					"when": "scmProvider == git && config.git-buttons.showGitSync && config.git-buttons.commandsLocation == 'More Actions'",
 					"command": "git.sync",
 					"group": "inline@6"
 				},
 				{
-					"when": "scmProvider == git && config.git-buttons.showGitSyncRebase && config.git-buttons.commandsLocation == 'Inline'",
+					"when": "scmProvider == git && config.git-buttons.showGitSyncRebase && config.git-buttons.commandsLocation == 'More Actions'",
 					"command": "git.syncRebase",
 					"group": "inline@7"
 				},
 				{
-					"when": "scmProvider == git && config.git-buttons.showGitCheckout && config.git-buttons.commandsLocation == 'Inline'",
+					"when": "scmProvider == git && config.git-buttons.showGitCheckout && config.git-buttons.commandsLocation == 'More Actions'",
 					"command": "git.checkout",
 					"group": "inline@8"
 				},
 				{
-					"when": "scmProvider == git && config.git-buttons.showGitPublish && config.git-buttons.commandsLocation == 'Inline'",
+					"when": "scmProvider == git && config.git-buttons.showGitPublish && config.git-buttons.commandsLocation == 'More Actions'",
 					"command": "git.publish",
 					"group": "inline@9"
 				},
 				{
-					"when": "scmProvider == git && config.git-buttons.showGitCommitAll && config.git-buttons.commandsLocation == 'Inline'",
+					"when": "scmProvider == git && config.git-buttons.showGitCommitAll && config.git-buttons.commandsLocation == 'More Actions'",
 					"command": "git.commitAll",
 					"group": "inline@10"
 				},
 				{
-					"when": "scmProvider == git && config.git-buttons.showGitCommitAllAmend && config.git-buttons.commandsLocation == 'Inline'",
+					"when": "scmProvider == git && config.git-buttons.showGitCommitAllAmend && config.git-buttons.commandsLocation == 'More Actions'",
 					"command": "git.commitAllAmend",
 					"group": "inline@11"
 				},
 				{
-					"when": "scmProvider == git && config.git-buttons.showGitCommitAllSigned && config.git-buttons.commandsLocation == 'Inline'",
+					"when": "scmProvider == git && config.git-buttons.showGitCommitAllSigned && config.git-buttons.commandsLocation == 'More Actions'",
 					"command": "git.commitAllSigned",
 					"group": "inline@12"
 				},
 				{
-					"when": "scmProvider == git && config.git-buttons.showGitCommitStaged && config.git-buttons.commandsLocation == 'Inline'",
+					"when": "scmProvider == git && config.git-buttons.showGitCommitStaged && config.git-buttons.commandsLocation == 'More Actions'",
 					"command": "git.commitStaged",
 					"group": "inline@13"
 				},
 				{
-					"when": "scmProvider == git && config.git-buttons.showGitCommitStagedAmend && config.git-buttons.commandsLocation == 'Inline'",
+					"when": "scmProvider == git && config.git-buttons.showGitCommitStagedAmend && config.git-buttons.commandsLocation == 'More Actions'",
 					"command": "git.commitStagedAmend",
 					"group": "inline@14"
 				},
 				{
-					"when": "scmProvider == git && config.git-buttons.showGitCommitStagedSigned && config.git-buttons.commandsLocation == 'Inline'",
+					"when": "scmProvider == git && config.git-buttons.showGitCommitStagedSigned && config.git-buttons.commandsLocation == 'More Actions'",
 					"command": "git.commitStagedSigned",
 					"group": "inline@15"
 				},
 				{
-					"when": "scmProvider == git && config.git-buttons.showGitUndoCommit && config.git-buttons.commandsLocation == 'Inline'",
+					"when": "scmProvider == git && config.git-buttons.showGitUndoCommit && config.git-buttons.commandsLocation == 'More Actions'",
 					"command": "git.undoCommit",
 					"group": "inline@16"
 				},
 				{
-					"when": "scmProvider == git && config.git-buttons.showGitCleanAll && config.git-buttons.commandsLocation == 'Inline'",
+					"when": "scmProvider == git && config.git-buttons.showGitCleanAll && config.git-buttons.commandsLocation == 'More Actions'",
 					"command": "git.cleanAll",
 					"group": "inline@17"
 				},
 				{
-					"when": "scmProvider == git && config.git-buttons.showGitStageAll && config.git-buttons.commandsLocation == 'Inline'",
+					"when": "scmProvider == git && config.git-buttons.showGitStageAll && config.git-buttons.commandsLocation == 'More Actions'",
 					"command": "git.stageAll",
 					"group": "inline@18"
 				},
 				{
-					"when": "scmProvider == git && config.git-buttons.showGitUnstageAll && config.git-buttons.commandsLocation == 'Inline'",
+					"when": "scmProvider == git && config.git-buttons.showGitUnstageAll && config.git-buttons.commandsLocation == 'More Actions'",
 					"command": "git.unstageAll",
 					"group": "inline@19"
 				},
 				{
-					"when": "scmProvider == git && config.git-buttons.showGitStash && config.git-buttons.commandsLocation == 'Inline'",
+					"when": "scmProvider == git && config.git-buttons.showGitStash && config.git-buttons.commandsLocation == 'More Actions'",
 					"command": "git.stash",
 					"group": "inline@20"
 				},
 				{
-					"when": "scmProvider == git && config.git-buttons.showGitStashIncludeUntracked && config.git-buttons.commandsLocation == 'Inline'",
+					"when": "scmProvider == git && config.git-buttons.showGitStashIncludeUntracked && config.git-buttons.commandsLocation == 'More Actions'",
 					"command": "git.stashIncludeUntracked",
 					"group": "inline@21"
 				},
 				{
-					"when": "scmProvider == git && config.git-buttons.showGitStashApply && config.git-buttons.commandsLocation == 'Inline'",
+					"when": "scmProvider == git && config.git-buttons.showGitStashApply && config.git-buttons.commandsLocation == 'More Actions'",
 					"command": "git.stashApply",
 					"group": "inline@22"
 				},
 				{
-					"when": "scmProvider == git && config.git-buttons.showGitStashApplyLatest && config.git-buttons.commandsLocation == 'Inline'",
+					"when": "scmProvider == git && config.git-buttons.showGitStashApplyLatest && config.git-buttons.commandsLocation == 'More Actions'",
 					"command": "git.stashApplyLatest",
 					"group": "inline@23"
 				},
 				{
-					"when": "scmProvider == git && config.git-buttons.showGitStashPop && config.git-buttons.commandsLocation == 'Inline'",
+					"when": "scmProvider == git && config.git-buttons.showGitStashPop && config.git-buttons.commandsLocation == 'More Actions'",
 					"command": "git.stashPop",
 					"group": "inline@24"
 				},
 				{
-					"when": "scmProvider == git && config.git-buttons.showGitStashPopLatest && config.git-buttons.commandsLocation == 'Inline'",
+					"when": "scmProvider == git && config.git-buttons.showGitStashPopLatest && config.git-buttons.commandsLocation == 'More Actions'",
 					"command": "git.stashPopLatest",
 					"group": "inline@25"
 				},
 				{
-					"when": "scmProvider == git && config.git-buttons.showGitStashDrop && config.git-buttons.commandsLocation == 'Inline'",
+					"when": "scmProvider == git && config.git-buttons.showGitStashDrop && config.git-buttons.commandsLocation == 'More Actions'",
 					"command": "git.stashDrop",
 					"group": "inline@26"
 				},
 				{
-					"when": "scmProvider == git && config.git-buttons.showGitShowOutput && config.git-buttons.commandsLocation == 'Inline'",
+					"when": "scmProvider == git && config.git-buttons.showGitShowOutput && config.git-buttons.commandsLocation == 'More Actions'",
 					"command": "git.showOutput",
 					"group": "inline@27"
 				}
